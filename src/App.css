@@ -1,0 +1,19 @@
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.Source {
+  text-align: center;
+  margin: 15px;
+}
+.form-control {
+        display: inline;
+        border-color: #5F6368;
+        width: 200px;
+    } 
+.form-control:focus {
+        display: inline;
+        border-color: #5F6368;
+        width: 200px;
+        box-shadow: 0 0 0 0.15rem #D2D2D2;
+    } 

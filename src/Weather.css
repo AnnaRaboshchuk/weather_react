@@ -1,5 +1,13 @@
+.Weather, .Source {
+    color: #5F6368;
+    font-family: "Nunito", sans-serif;
+}
 .Weather {
-    color: green;
+  border: 1px solid #D2D2D2;
+  border-radius: 15px 0px;
+  margin: 10px auto;
+  padding: 5px 10px;
+  
 }
 
 .temperature-today {
@@ -7,7 +15,7 @@
   margin: 0 auto;
   text-align: center;
   font-size: 40px;
-  font-family: "Nunito", sans-serif;
+  
   font-weight: bold;
   padding-top: 50px;
 }
@@ -54,4 +62,19 @@ img {
   padding-top: 5px;
   text-align: center;
   font-size: 30px;
+}
+
+
+
+.form_search {
+  margin-top: 15px;
+  color: #5F6368;
+}
+
+.btn {
+  margin-left: 5px;
+
+}
+.btn:focus {
+  box-shadow: 0 0 0 0.15rem #D2D2D2;
 }

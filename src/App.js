@@ -7,7 +7,7 @@ function App() {
       <div className="container">
         
         <Weather />
-        <footer>
+        <footer className="Source">
           This project is coded by Anna Raboshchuk and is{" "}
           <a
             href="https://github.com/AnnaRaboshchuk/weather_react"
