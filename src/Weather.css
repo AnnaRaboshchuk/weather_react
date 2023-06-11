@@ -33,11 +33,11 @@
 .temperature-today .active:hover {
   text-decoration: none;
 }
-img {
+canvas {
   display: block;
   margin: 0 auto;
   text-align: center;
-  width: 170px;
+  width: auto;
   padding: 0;
 }
 .other-today {
