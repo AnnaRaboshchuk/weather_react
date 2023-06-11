@@ -10,7 +10,7 @@ export default function WeatherInfo(props) {
           <h3 class="date">
             <FormattedDate date={props.data.date} />
           </h3>
-          <p id="city_in">
+          <p >
             Today in <span id="city">{props.data.city}</span> be ready for
             {props.data.description}
             <span id="description"></span>
