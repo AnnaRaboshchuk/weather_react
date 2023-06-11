@@ -22,7 +22,7 @@ export default function WeatherInfo(props) {
            
           </div>
           <div class="col image-today">
-             <WeatherIcon code={props.data.icon}  /> 
+             <WeatherIcon code={props.data.icon} size={100} /> 
           </div>
           <div class="col other-today">
             Humidity <span id="humidity">{props.data.humidity}</span> % <br />
