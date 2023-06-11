@@ -4,8 +4,8 @@
 }
 .Weather {
   border: 1px solid #D2D2D2;
-  border-radius: 15px 0px;
-  margin: 10px auto;
+  border-radius: 15px;
+  margin: 15px auto;
   padding: 5px 10px;
   
 }
@@ -37,7 +37,7 @@ canvas {
   display: block;
   margin: 0 auto;
   text-align: center;
-  width: auto;
+ 
   padding: 0;
 }
 .other-today {
